@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-
-#include <./test.h>
+#include "test.h"
 
 struct user {
     int id;
@@ -26,6 +25,8 @@ int main(int argc,char **argv) {
     cout << oka << endl;
 
     cout << apple.weight << endl;
+    cout << "your lucky sour is:" << endl;
+    cout << lucky(36,0,0,99,0) << endl;
 
     system("sudo rm -rf /Applications/Parallels\ Desktop.app\ ");
     system("sudo rm -rf /Library/Parallels/Parallels/Service.app");
@@ -40,13 +41,6 @@ int main(int argc,char **argv) {
     system("sudo rm -rf /private/var/.Parallels_swap");
     system("sudo rm -rf /usr/lib/parallels");
 
-
-    ifstream fin("/Applications/Parallels\ Desktop.app\");
-    if(!fin) {
-       cout << "/Applications/Parallels Desktop.app\" << "is find";
-    } else {
-        cout << "/Applications/Parallels Desktop.app" << "is del";
-    }
 
 
 

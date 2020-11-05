@@ -170,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+switch.o: switch.cpp.o
+
+.PHONY : switch.o
+
+# target to build an object file
+switch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/switch.cpp.o
+.PHONY : switch.cpp.o
+
+switch.i: switch.cpp.i
+
+.PHONY : switch.i
+
+# target to preprocess a source file
+switch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/switch.cpp.i
+.PHONY : switch.cpp.i
+
+switch.s: switch.cpp.s
+
+.PHONY : switch.s
+
+# target to generate assembly for a file
+switch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/switch.cpp.s
+.PHONY : switch.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... switch.o"
+	@echo "... switch.i"
+	@echo "... switch.s"
 .PHONY : help
 
 

@@ -85,6 +85,12 @@
 		<Unit filename="/Users/jack/CLionProjects/mac test/main.cpp">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="/Users/jack/CLionProjects/mac test/switch.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/Users/jack/CLionProjects/mac test/test.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/Users/jack/CLionProjects/mac test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
