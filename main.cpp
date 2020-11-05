@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-#include <cfstream>
+
+#include <./test.h>
 
 struct user {
     int id;
@@ -23,6 +24,9 @@ int main(int argc,char **argv) {
     int jack2 = 6;
     oka = &jack2;
     cout << oka << endl;
+
+    cout << apple.weight << endl;
+
     system("sudo rm -rf /Applications/Parallels\ Desktop.app\ ");
     system("sudo rm -rf /Library/Parallels/Parallels/Service.app");
     system("sudo rm -rf /Library/Parallels/Receipts/com.parallels.pkg.virtualization");
