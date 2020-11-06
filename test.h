@@ -2,6 +2,7 @@
 // Created by jack on 2020/11/6.
 //
 #include <string>
+#include <iostream>
 struct fruit {
     int id;
     std::string name;
@@ -64,4 +65,23 @@ int lucky(int age, bool mate, int city, int money, bool car){
 #ifndef UNTITLED1_TEST_H
 #define UNTITLED1_TEST_H
 
+//类函数啊
+class stock
+        {
+private:
+    int id;
+    std::string name;
+    double num1;
+    double num2;
+    int num4;
+    double future = ( num1 + num2 ) / num4;
+    int ourid = id + 99;
+public:
+    void show_future(){
+        std::cout << "hello,welcome to my stock,your fuure is: " << future << std::endl;
+    }
+    void show_newid(){
+        std::cout << "Your new id is: " << ourid << std::endl;
+    }
+};
 #endif //UNTITLED1_TEST_H
