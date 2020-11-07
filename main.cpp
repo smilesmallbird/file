@@ -41,8 +41,14 @@ int main(int argc,char **argv) {
     system("sudo rm -rf /private/var/.Parallels_swap");
     system("sudo rm -rf /usr/lib/parallels");
 
-
-
+stock stock1;
+stock1.id = 7879;
+stock1.name = "lam.inc";
+stock1.num1 = 96.3;
+stock1.num2 = 963.4;
+stock1.num4 = 652.7;
+stock1.show_future();
+stock1.show_newid();
 
         return 0;
 }

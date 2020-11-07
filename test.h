@@ -68,20 +68,19 @@ int lucky(int age, bool mate, int city, int money, bool car){
 //类函数啊
 class stock
         {
-private:
+public:
     int id;
     std::string name;
     double num1;
     double num2;
     int num4;
-    double future = ( num1 + num2 ) / num4;
-    int ourid = id + 99;
-public:
+
+
     void show_future(){
-        std::cout << "hello,welcome to my stock,your fuure is: " << future << std::endl;
+        std::cout << "hello,welcome to my stock,your fuure is: " << ( num1 + num2 ) / num4 << std::endl;
     }
     void show_newid(){
-        std::cout << "Your new id is: " << ourid << std::endl;
+        std::cout << "Your new id is: " << id + 99 << std::endl;
     }
 };
 #endif //UNTITLED1_TEST_H
