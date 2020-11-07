@@ -83,4 +83,19 @@ public:
         std::cout << "Your new id is: " << id + 99 << std::endl;
     }
 };
+
+int whoismax(int a1, int b1,int c1) {
+    if(a1 > b1 && a1 > c1){
+        return a1;
+    } else if(b1 > a1 && b1 > c1){
+        return b1;
+    } else {
+        return c1;
+    }
+}
+
+class Jack
+{
+
+};
 #endif //UNTITLED1_TEST_H

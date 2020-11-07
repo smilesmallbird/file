@@ -4,5 +4,3 @@
 CMakeFiles/untitled1.dir/main.cpp.o: ../main.cpp
 CMakeFiles/untitled1.dir/main.cpp.o: ../test.h
 
-CMakeFiles/untitled1.dir/switch.cpp.o: ../switch.cpp
-

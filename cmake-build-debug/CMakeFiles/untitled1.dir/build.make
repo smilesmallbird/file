@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/pixel/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /cygdrive/c/Users/pixel/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/jack/CLionProjects/mac test"
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/pixel/CLionProjects/file
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/jack/CLionProjects/mac test/cmake-build-debug"
+CMAKE_BINARY_DIR = /cygdrive/c/Users/pixel/CLionProjects/file/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled1.dir/depend.make
@@ -79,47 +79,32 @@ include CMakeFiles/untitled1.dir/flags.make
 
 CMakeFiles/untitled1.dir/main.cpp.o: CMakeFiles/untitled1.dir/flags.make
 CMakeFiles/untitled1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jack/CLionProjects/mac test/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled1.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled1.dir/main.cpp.o -c "/Users/jack/CLionProjects/mac test/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/pixel/CLionProjects/file/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled1.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled1.dir/main.cpp.o -c /cygdrive/c/Users/pixel/CLionProjects/file/main.cpp
 
 CMakeFiles/untitled1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jack/CLionProjects/mac test/main.cpp" > CMakeFiles/untitled1.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/pixel/CLionProjects/file/main.cpp > CMakeFiles/untitled1.dir/main.cpp.i
 
 CMakeFiles/untitled1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jack/CLionProjects/mac test/main.cpp" -o CMakeFiles/untitled1.dir/main.cpp.s
-
-CMakeFiles/untitled1.dir/switch.cpp.o: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/switch.cpp.o: ../switch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/jack/CLionProjects/mac test/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled1.dir/switch.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled1.dir/switch.cpp.o -c "/Users/jack/CLionProjects/mac test/switch.cpp"
-
-CMakeFiles/untitled1.dir/switch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/switch.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/jack/CLionProjects/mac test/switch.cpp" > CMakeFiles/untitled1.dir/switch.cpp.i
-
-CMakeFiles/untitled1.dir/switch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/switch.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/jack/CLionProjects/mac test/switch.cpp" -o CMakeFiles/untitled1.dir/switch.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/pixel/CLionProjects/file/main.cpp -o CMakeFiles/untitled1.dir/main.cpp.s
 
 # Object files for target untitled1
 untitled1_OBJECTS = \
-"CMakeFiles/untitled1.dir/main.cpp.o" \
-"CMakeFiles/untitled1.dir/switch.cpp.o"
+"CMakeFiles/untitled1.dir/main.cpp.o"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
 
-untitled1: CMakeFiles/untitled1.dir/main.cpp.o
-untitled1: CMakeFiles/untitled1.dir/switch.cpp.o
-untitled1: CMakeFiles/untitled1.dir/build.make
-untitled1: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/jack/CLionProjects/mac test/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled1"
+untitled1.exe: CMakeFiles/untitled1.dir/main.cpp.o
+untitled1.exe: CMakeFiles/untitled1.dir/build.make
+untitled1.exe: CMakeFiles/untitled1.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/pixel/CLionProjects/file/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/untitled1.dir/build: untitled1
+CMakeFiles/untitled1.dir/build: untitled1.exe
 
 .PHONY : CMakeFiles/untitled1.dir/build
 
@@ -128,6 +113,6 @@ CMakeFiles/untitled1.dir/clean:
 .PHONY : CMakeFiles/untitled1.dir/clean
 
 CMakeFiles/untitled1.dir/depend:
-	cd "/Users/jack/CLionProjects/mac test/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/jack/CLionProjects/mac test" "/Users/jack/CLionProjects/mac test" "/Users/jack/CLionProjects/mac test/cmake-build-debug" "/Users/jack/CLionProjects/mac test/cmake-build-debug" "/Users/jack/CLionProjects/mac test/cmake-build-debug/CMakeFiles/untitled1.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /cygdrive/c/Users/pixel/CLionProjects/file/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/pixel/CLionProjects/file /cygdrive/c/Users/pixel/CLionProjects/file /cygdrive/c/Users/pixel/CLionProjects/file/cmake-build-debug /cygdrive/c/Users/pixel/CLionProjects/file/cmake-build-debug /cygdrive/c/Users/pixel/CLionProjects/file/cmake-build-debug/CMakeFiles/untitled1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled1.dir/depend
 
